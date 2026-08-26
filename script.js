@@ -1,11 +1,7 @@
 const student = {
-  name: "sonu",
+    name: "Amar"
 };
 
-// Function to get all keys from the object
-function getKeys(age)
-  return Object.keys(age);
+function getKeys(obj) {
+    return Object.keys(obj);
 }
-
-// Testing the function
-console.log(getKeys(student)); //
